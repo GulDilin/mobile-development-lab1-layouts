@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextButton" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:backgroundTintMode">?attr/colorOnSecondary</item>
+        <item name="android:backgroundTint">?attr/colorSecondaryVariant</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="TextButtonWhite" parent="TextButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextButtonGrey" parent="TextButton">
+        <item name="android:textColor">?attr/colorOnPrimarySurface</item>
+    </style>
+
+    <style name="TextButtonOnBg" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:backgroundTintMode">?attr/colorOnSecondary</item>
+        <item name="android:backgroundTint">?attr/colorOnBackground</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="TextButtonOnBgWhite" parent="TextButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextButtonOnBgGrey" parent="TextButton">
+        <item name="android:textColor">?attr/colorOnPrimarySurface</item>
+    </style>
+
+    <style name="ImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:backgroundTint">?attr/colorSecondaryVariant</item>
+        <item name="android:background">?attr/colorSecondaryVariant</item>
+        <item name="android:backgroundTintMode">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="ImageButtonWhite" parent="ImageButton">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="ImageButtonGrey" parent="ImageButton">
+        <item name="android:tint">?attr/colorOnSecondary</item>
+    </style>
+
+</resources>
